@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Finlink Capital"
+theme = "SimpleIntro"
+
+[params]
+    mainbg = "https://picsum.photos/1920/1080"
+    name = "Finlink Captial"
+    mainTitle = "Finlink Captial"
+    mainText = "Liquidity to the globe"
+
+[menus]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "#about"
+    [[menu.main]]
+        identifier = "team"
+        name = "Team"
+        url = "#team"
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "#projects"
