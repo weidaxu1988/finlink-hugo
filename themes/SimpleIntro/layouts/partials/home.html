@@ -1,7 +1,7 @@
 <div>
   <div
     id="mainBG"
-    style="background-image: url('{{ if $.Site.Params.mainbg }}{{ $.Site.Params.mainbg }}{{ else }}https://picsum.photos/1920/1080{{ end }}');"
+    style="background-image: url('{{ if $.Site.Params.mainbg }}{{ $.Site.Params.mainbg }}{{ else }}{{ .Site.BaseURL }}/img/mainbg.jpg{{ end }}');"
   >
     <div
       class="wave wave1"
@@ -30,7 +30,7 @@
   <main class="container mx-auto mt-8 px-4 xl:px-0">
     <section id="about" class="md:flex justify-around">
       <div class="my-auto md:mr-4">
-        {{ partial "home_title" (dict "title" "About Me") }}
+        {{ partial "home_title" (dict "title" "About Us") }}
         <div class="flex mt-3 gap-3 text-xl">
           {{ range $data.about.link }}
           <a href="{{.url}}"><i class="{{ .icon }}"></i></a>{{end}}
@@ -85,16 +85,16 @@
           <div class="mt-4 text-xl text-center">Team don't exist</div>
         {{end}}
     </section>
-    <section id="projects" class="mt-12">
+    <section id="portfolios" class="mt-12">
       <div class="md:flex justify-center">
-        {{ partial "home_title" (dict "title" "Projects") }}
+        {{ partial "home_title" (dict "title" "Portfolios") }}
       </div>
       
       {{if $data.team.list}}
       <div
         class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
       >
-        {{ range $data.project.list }}
+        {{ range $data.portfolios.list }}
         <div class="w-full rounded overflow-hidden shadow-lg">
           <a href="{{ .url }}" target="_blank">
             <img
@@ -113,7 +113,7 @@
         {{end}}
       </div>
       {{else}}
-          <div class="mt-4 text-xl text-center">Projects does not exist</div>
+          <div class="mt-4 text-xl text-center">Portfolios does not exist</div>
       {{end}}
     </section>
   </main>

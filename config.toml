@@ -1,10 +1,12 @@
-baseURL = "http://example.org/"
+baseURL = "https://weidaxu1988.github.io/finlink-site/"
 languageCode = "en-us"
 title = "Finlink Capital"
 theme = "SimpleIntro"
 
+canonifyurls = true
+
 [params]
-    mainbg = "https://picsum.photos/1920/1080"
+    mainbg = "img/mainbg.jpg"
     name = "Finlink Captial"
     mainTitle = "Finlink Captial"
     mainText = "Liquidity to the globe"
@@ -19,6 +21,6 @@ theme = "SimpleIntro"
         name = "Team"
         url = "#team"
     [[menu.main]]
-        identifier = "projects"
-        name = "Projects"
-        url = "#projects"
+        identifier = "portfolios"
+        name = "Portfolios"
+        url = "#portfolios"
