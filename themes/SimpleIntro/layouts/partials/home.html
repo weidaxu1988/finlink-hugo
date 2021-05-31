@@ -96,13 +96,15 @@
       >
         {{ range $data.portfolios.list }}
         <div class="w-full rounded overflow-hidden shadow-lg">
-          <a href="{{ .url }}" target="_blank">
-            <img
-            class="w-full h-48"
-            src="{{ .image }}"
-            alt="Sunset in the mountains"
-            />            
-          </a>         
+          <div style="background-color: dimgray;padding-left: 12%;padding-right: 12%">
+            <a href="{{ .url }}" target="_blank">
+              <img
+              class="w-full h-48"
+              src="{{ .image }}"
+              alt="Sunset in the mountains"
+              />            
+            </a>         
+          </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">{{ .title }}</div>
             <p class="text-gray-700 text-base">
