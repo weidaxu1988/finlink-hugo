@@ -1,26 +1,4 @@
 baseURL = "https://weidaxu1988.github.io/finlink-site/"
 languageCode = "en-us"
 title = "Finlink Capital"
-theme = "SimpleIntro"
-
-canonifyurls = true
-
-[params]
-    mainbg = "img/mainbg.jpg"
-    name = "Finlink Captial"
-    mainTitle = "Finlink Captial"
-    mainText = "Liquidity to the globe"
-
-[menus]
-    [[menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "#about"
-    [[menu.main]]
-        identifier = "team"
-        name = "Team"
-        url = "#team"
-    [[menu.main]]
-        identifier = "portfolios"
-        name = "Portfolios"
-        url = "#portfolios"
+theme = "dimension"
