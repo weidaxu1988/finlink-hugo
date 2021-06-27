@@ -1,7 +1,16 @@
 {{ if .IsNamedParams }}
+    {{ if .Get "link" }}
     <span class="image {{ .Get "set" }}">
-        <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" />
+        <a href="{{ .Get "link" }}">
+            <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" />
+        </a>
     </span>
+    {{ else }}
+        <span class="image {{ .Get "set" }}">
+            <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" />    
+        </span>    
+    {{ end }}
+    
 {{ else }}
     <span class="image {{ .Get 1 }}"><img src="{{ .Get 0 }}" alt="" /></span>
 {{ end }}

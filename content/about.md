@@ -8,7 +8,7 @@ we utilize our high frequency trading skills to help our portfolios with world-c
 
 ## Our Team
 ### Chuck Li
-Managing Partner
+Managing Partner{{< image src="images/linkedin_icon.png" alt="linkedin" set="icon" link="/">}}
 
 ### David Xu
 Managing Partner
