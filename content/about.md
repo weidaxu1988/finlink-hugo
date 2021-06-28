@@ -10,7 +10,7 @@ For investments and inquiries, please contact us at _yangli@finlink.capital_
 
 ## Our Team
 ### Yang Li
-Managing Partner{{< image src="images/linkedin_icon.png" alt="linkedin" set="icon" link="https://www.linkedin.com/in/lyandlyf/">}}
+Founding Partner{{< image src="images/linkedin_icon.png" alt="linkedin" set="icon" link="https://www.linkedin.com/in/lyandlyf/">}}
 
 ### Weida Xu
-Managing Partner
+Founding Partner
