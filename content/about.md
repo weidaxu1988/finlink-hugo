@@ -6,7 +6,7 @@ We cover a variety of Defi and Cefi projects, especially trading related. Finlin
 in exchanges, derivatives, fixed income, NFT and etc. Unlike many pure crypto VCs,
 we utilize our high frequency trading skills to help our portfolios with world-class liquidity from day 1.
 
-For investments and inquiries, please contact us at _yangli@finlink.capital_
+<!-- For investments and inquiries, please contact us at **_yangli@finlink.capital_** -->
 
 ## Our Team
 ### Yang Li
