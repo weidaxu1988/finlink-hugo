@@ -7,6 +7,11 @@ title: Portfolio
 |-|-|
 {{< image src="images/dydx-logo.svg" alt="dydx" set="fix" >}} | The most powerful open trading platform for crypto assets.
 
+### strips
+| | |
+|-|-|
+{{< image src="images/strip-logo.webp" alt="dydx" set="fix" >}} | The first revolutionary interest rate derivatives exchange on Arbitrum. STRIPS was designed to allow users to trade, speculate, and hedge interest rates.
+
 ### Notional
 | | |
 |-|-|
